@@ -1,4 +1,3 @@
-// src/app/(public)/auth/signin/page.tsx
 "use client"; // Explicitly mark the page as client-side rendered
 
 import { Suspense, useEffect, useState } from "react";
@@ -274,8 +273,3 @@ export default function SignInPage() {
   );
 }
 
-export const SignInPageWithSuspense = () => (
-  <Suspense fallback={<div>Loading...</div>}>
-    <SignInPage />
-  </Suspense>
-);
