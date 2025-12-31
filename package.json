@@ -1,0 +1,36 @@
+{
+  "name": "malpra",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "ts-node prisma/seed.ts",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.10.0",
+    "@prisma/client": "^6.14.0",
+    "bcrypt": "latest",
+    "firebase": "^12.7.0",
+    "next": "^15.5.9",
+    "next-auth": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/bcrypt": "^6.0.0",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "prisma": "^6.14.0",
+    "tailwindcss": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
